@@ -1,0 +1,143 @@
+img#turma {
+    position: absolute;
+    width: 318px;
+    height: 68px;
+    top: 10%;
+    left: -2%;
+}
+
+div#p {
+    position: absolute;
+    left: 120px;
+    top: 180px;
+    width: 750px;
+    height: 600px;
+}
+
+img#imagem1 {
+    position: absolute;
+    right: 120px;
+    top: 180px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+}
+
+.flutuarDireita {
+    float: right;
+    margin-left: 15px;
+}
+.flutuarEsquerda {
+    float: left;
+    margin-right: 15px;
+}
+
+.titulo {
+    font-size: 38px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(290deg, #08182f, #122b4a, #1d3f6c);
+    color: #fff;
+    text-align: left;
+}
+
+header {
+    position: absolute;
+    background-color: #031c3a;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 10%;
+}
+
+footer {
+    position: absolute;
+    text-align: center;
+    background-color: #031c3a;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+nav ul{
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    right: 250px;
+    top: 35px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+li#nav1{
+    text-align: center;
+    display: inline-block;
+    margin: 0 10px;
+    width: 70px;
+    border-right-color: rgb(255, 255, 255);
+    border-right-width: 1px;
+    border-right-style: ridge;
+    border-left-color: rgb(255, 255, 255);
+    border-left-width: 1px;
+    border-left-style: ridge;
+}
+
+li#nav2{
+    text-align: center;
+    display: inline-block;
+    margin: 0 10px;
+    width: 130px;
+    border-right-color: rgb(255, 255, 255);
+    border-right-width: 1px;
+    border-right-style: ridge;
+    border-left-color: rgb(255, 255, 255);
+    border-left-width: 1px;
+    border-left-style: ridge;
+}
+
+li#nav3{
+    text-align: center;
+    display: inline-block;
+    margin: 0 10px;
+    width: 130px;
+    border-right-color: rgb(255, 255, 255);
+    border-right-width: 1px;
+    border-right-style: ridge;
+    border-left-color: rgb(255, 255, 255);
+    border-left-width: 1px;
+    border-left-style: ridge;
+}
+
+li#nav4{
+    text-align: center;
+    display: inline-block;
+    margin: 0 10px;
+    width: 130px;
+    border-right-color: rgb(255, 255, 255);
+    border-right-width: 1px;
+    border-right-style: ridge;
+    border-left-color: rgb(255, 255, 255);
+    border-left-width: 1px;
+    border-left-style: ridge;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none; 
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px; 
+
+}
+
+
